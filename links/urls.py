@@ -9,5 +9,5 @@ urlpatterns = [
     path("delete/<int:pk>", views.PostDeleteApi.as_view(), name="api_delete"),
     path("", views.PostListApi.as_view(), name="api_list"),
     path("active/", views.ActiveLinkView.as_view(), name='active_link'),
-    path("recent/", RecentLinkView.as_view(), name='recent_link')
+    path("recent/", views.RecentLinkView.as_view(), name='recent_link')
 ]
