@@ -1,4 +1,3 @@
-from typing import List
 from django.shortcuts import render
 from rest_framework.generics import ListAPIView,CreateAPIView, RetrieveAPIView , UpdateAPIView, DestroyAPIView
 from .serializers import LinkSerializer
